@@ -1,0 +1,74 @@
+.dribbble-page {
+    padding: 5rem;
+    width: 70%; /* Adjust the width as needed */
+    height: 70%;
+    margin: 50px auto; /* Center the component horizontally */
+    text-align: center; /* Center the content inside the component */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .dribbble-page__options {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .dribbble-page__option {
+    flex-basis: 30%; /* Adjust the width of each option */
+  }
+  
+  /* Style for the selected option */
+  .dribbble-page__option input[type="radio"]:checked + label {
+    background-color: #007bff; /* Background color for the selected option */
+    color: #fff; /* Text color for the selected option */
+    border-radius: 4px; /* Adjust border-radius as needed */
+  }
+  
+  .dribbble-page__option input[type="radio"] {
+    display: none; /* Hide the radio buttons */
+  }
+  
+  .dribbble-page__option label {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid transparent; /* Ensure consistent border for all options */
+  }
+  
+  .dribbble-page__option label:hover {
+    background-color: #f0f0f0; /* Hover background color */
+  }
+  
+  .dribbble-page__option img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .dribbble-page__option span {
+    font-size: 14px;
+    display: block;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,100 @@
+.welcome-page {
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-page h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-page p {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 2rem;
+  }
+  
+  .welcome-page__profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 2rem auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .welcome-page__profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .welcome-page__profile-pic p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .welcome-page__profile-pic input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1; /* Ensure the file input is clickable */
+  }
+  
+  .welcome-page__location input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    margin-top: 10px; /* Adjust margin */
+    margin-bottom: 20px;
+    margin-left: 22px;
+  }
+  
+  .welcome-page button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .welcome-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .welcome-page p a {
+    font-size: 0.8rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .welcome-page p a:hover {
+    text-decoration: underline;
+  }
+  

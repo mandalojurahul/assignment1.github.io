@@ -1,0 +1,76 @@
+.signup-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-half {
+  width: 45%;
+}
+
+.left-half img {
+  width: 100%;
+}
+
+.right-half {
+  width: 45%;
+}
+
+.right-half form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-half .form-group {
+  margin-bottom: 20px;
+  align-items: center;
+}
+.signup-form .form-group button[type="submit"]
+  {
+    align-items: center;
+  }
+  .inline-inputs {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  
+.right-half .form-group label {
+  margin-right: 10px; /* Add some space between label and input */
+}
+.form-group {
+  flex: 1;
+  margin-right: 10px; /* Add spacing between input groups */
+}
+.form-group:last-child {
+  margin-right: 5px; /* Remove margin from the last input group */
+}
+  
+.form-group #ra
+{
+  padding-left: 170px;
+}
+.right-half h1,p{
+  text-align: center;
+  padding-bottom: 10px;
+}
+  .right-half .form-group input[type="text"],
+  .right-half .form-group input[type="email"],
+  .right-half .form-group input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 16px;
+    flex: 1; /* Make inputs take up remaining space */
+  }
+  .right-half .form-group input[type="email"],
+  .right-half .form-group input[type="password"]{
+    width: 35rem;
+  }
+
+.error {
+  color: red;
+}
